@@ -1,0 +1,10 @@
+header{
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+}
+
+header p{
+  font: var(--header);
+  text-transform: uppercase;
+  color: var(--gray-dark);
+}

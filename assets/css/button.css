@@ -1,0 +1,14 @@
+.button{
+  outline: none;
+  background: var(--gray-dark);
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+  padding-inline-start: 43px;
+  padding-inline-end: 43px;
+  margin-block-start: 66px;
+  margin-block-end: 66px;
+  font: var(--button);
+  color: var(--white);
+  text-transform: uppercase;
+  cursor: pointer;
+}

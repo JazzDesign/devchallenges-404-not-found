@@ -1,0 +1,32 @@
+@import "wrapper.css";
+@import "header.css";
+@import "hero.css";
+@import "button.css";
+@import "footer.css";
+
+:root {
+  --fontBase: 'Space Mono', monospace;
+  --fontFooter: 'Montserrat', sans-serif;
+  --headline-1: bold 64px/94.78px var(--fontBase);
+  --headline-2: bold 48px/71.09px var(--fontBase);
+  --header: bold 24px/25.18px var(--fontBase);
+  --body: 24px/35.54px var(--fontBase);
+  --body-2: 18px/26.66px var(--fontBase);
+  --button: bold 14px/20.73px var(--fontBase);
+  --footer: 14px/17.01px var(--fontFooter);
+  --white:#FFFFFF;
+  --gray: #4F4F4F;
+  --gray-dark: #333333;
+}
+
+* {
+  padding: 0;
+}
+
+body{
+  background: var(--white);
+  min-block-size: calc(100vh - 100px);
+  font: var(--body);
+  color: var(--gray);
+  margin: 0;
+}
